@@ -4,19 +4,19 @@ import { Projectile } from "./Projectile.js";
 
 export const buildingTypes = {
     'Archer Tower': { 
-        imageSrc: 'img/Buildings/lv1ArcherTower.png', 
+        imageSrc: 'img/Buildings/Lv1ArcherTower.png', 
         price: 50,
         attackSpeed: 50, // bigger number = slower
         range: 250,
         upgrade: {
             2: {
-                imageSrc: 'img/Buildings/lv2ArcherTower.png',
+                imageSrc: 'img/Buildings/Lv2ArcherTower.png',
                 price: 200,
                 attackSpeed: 40,
                 range: 300
             },
             3: {
-                imageSrc: 'img/Buildings/lv3ArcherTower.png',
+                imageSrc: 'img/Buildings/Lv3ArcherTower.png',
                 price: 500,
                 attackSpeed: 20,
                 range: 325
@@ -24,19 +24,19 @@ export const buildingTypes = {
         }
     },
     'Mage Tower': { 
-        imageSrc: 'img/Buildings/lv1MageTower.png', 
+        imageSrc: 'img/Buildings/Lv1MageTower.png', 
         price: 200,
         attackSpeed: 70, 
         range: 300,
         upgrade: {
             2: {
-                imageSrc: 'img/Buildings/lv2MageTower.png',
+                imageSrc: 'img/Buildings/Lv2MageTower.png',
                 price: 400,
                 attackSpeed: 60,
                 range: 400
             },
             3: {
-                imageSrc: 'img/Buildings/lv3MageTower.png',
+                imageSrc: 'img/Buildings/Lv3MageTower.png',
                 price: 600,
                 attackSpeed: 50,
                 range: 400
@@ -44,19 +44,19 @@ export const buildingTypes = {
         }
     },
     'Stone Tower': { 
-        imageSrc: 'img/Buildings/lv1StoneTower.png', 
+        imageSrc: 'img/Buildings/Lv1StoneTower.png', 
         price: 400,
         attackSpeed: 125, 
         range: 400,
         upgrade: {
             2: {
-                imageSrc: 'img/Buildings/lv2StoneTower.png',
+                imageSrc: 'img/Buildings/Lv2StoneTower.png',
                 price: 800,
                 attackSpeed: 100,
                 range: 425
             },
             3: {
-                imageSrc: 'img/Buildings/lv3StoneTower.png',
+                imageSrc: 'img/Buildings/Lv3StoneTower.png',
                 price: 1100,
                 attackSpeed: 80,
                 range: 500
@@ -64,19 +64,19 @@ export const buildingTypes = {
         }
     },
     'Dark Mage Tower': {
-        imageSrc: 'img/Buildings/lv1DarkMageTower.png',
+        imageSrc: 'img/Buildings/Lv1DarkMageTower.png',
         price: 600,
         attackSpeed: 80,
         range: 450,
         upgrade: {
             2: {
-                imageSrc: 'img/Buildings/lv2DarkMageTower.png',
+                imageSrc: 'img/Buildings/Lv2DarkMageTower.png',
                 price: 1000,
                 attackSpeed: 65,
                 range: 475
             },
             3: {
-                imageSrc: 'img/Buildings/lv3DarkMageTower.png',
+                imageSrc: 'img/Buildings/Lv3DarkMageTower.png',
                 price: 1500,
                 attackSpeed: 55,
                 range: 600
